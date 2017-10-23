@@ -1,0 +1,20 @@
+header li{
+			list-style: none;
+			
+		}
+
+		header a:link, a:visited{
+			background-color: orange;
+			text-decoration: none;
+			color: black;
+		}
+
+		header a:hover, a:active{
+			background-color: green;
+		}
+
+		div li:nth-child(odd):hover {
+			cursor: pointer;
+			background-color: orange; 
+
+		}
