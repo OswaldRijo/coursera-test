@@ -1,0 +1,114 @@
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color: #9F9898;
+	font-family: 'Libre Franklin', sans-serif;
+	box-sizing: border-box;
+
+}
+
+.navbar-default , .navbar{
+    border-color: transparent;
+    border-radius: 0px;
+}
+
+#header-nav{
+	background-color: #28A4E3;
+}
+
+.navbar-brand h1 { /*Nombre del restaurant*/
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #FAFBFB;
+	margin-top: 0;
+	margin-bottom: 0;
+	position: relative;
+	top:-5px;
+
+}
+
+#myNavbar a{
+	color: #FAFBFB;
+}
+
+
+#myNavbar {
+	float: right;
+	width: 300px;
+	margin-right: auto;
+	margin: 5px 0 0 0;
+}
+#boton {
+	background-color: transparent;
+	border: 3px solid;
+
+}
+
+#boton:focus, #boton:hover{
+	background-color: white;
+}
+
+.nav-pills>li.active>a, .navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    background-color: #28A4E3;
+    border: transparent;
+}
+
+#myNavbar a:hover, #myNavbar a:focus{
+	background-color: #FAFBFB;
+	color: #28A4E3;
+}
+
+.navbar-toggle {
+	background-color: #fff;
+
+}
+
+#titulo>h2{
+font-size: 1.5em;
+text-align: center;
+}
+
+.text{
+
+	background-color: #FAFBFB;
+	padding: 20px;
+	margin: 10px 0px 10px 0px;
+	border: 15px solid #9F9898;;
+	
+
+}
+.lead,.h4{
+	color: black;
+	font-size: 0.75em
+
+
+}
+.h4{
+	font-weight: bold;
+	font-size: 0.9em;
+}
+
+.titleMenu{
+	align-items: center;
+	text-align: center;
+}
+
+
+
+
+
+@media(max-width: 768px){
+	#myNavbar{
+		width: 100%
+	}
+@media (min-width: 768px){
+	.text{
+		
+	}
+
+	#sushi{
+		margin-right: 15px;
+	}
+}
+
+}
