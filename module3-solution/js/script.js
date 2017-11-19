@@ -8,7 +8,7 @@ $(function (){
 	
 (function(global){
 	var dinamic = {};
-	var mainContent= "/partes/main-content.html";
+	var mainContent= "https://github.com/OswaldRijo/coursera-test/tree/master/module3-solution/partes/main-content.html";
 
 	var insertaHtml = function (target, html){
 		console.log(html);

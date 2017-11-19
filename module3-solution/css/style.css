@@ -2,7 +2,7 @@
 body{
 	font-size: 16px;
 	color: #fff;
-	background-color: #fff;
+	background-color: #9F9898;
 	font-family: 'Libre Franklin', sans-serif;
 	box-sizing: border-box;
 	transition:all 0.3s ease;
@@ -15,7 +15,7 @@ body{
   width: 100px;
   height: 100px;
   margin: 10px 15px 10px 0;
-  background: url('../viajes/logo_portada.png');
+  background: url('https://github.com/OswaldRijo/coursera-test/tree/master/module3-solution/viajes/logo_portada.png');
 }
 
 #mainLogo{
@@ -148,7 +148,7 @@ body{
 .jumbotron{
 	height: 610px;
 	padding: 0 0 0 0;
-	background: #9F9898;
+	background: #fff;
 	box-shadow: 0 0 50px #28A4E3;
 
 }
@@ -161,7 +161,7 @@ body{
 #lista ul {
 	float: right;
 	
-	list-style-image: url("bullet_white.png");
+	list-style-image: url("https://github.com/OswaldRijo/coursera-test/tree/master/module3-solution/css/bullet_white.png");
 	margin-left: 0;
    padding-left: 1em;
    
